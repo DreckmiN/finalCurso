@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Final</title>
+    </head>
+    <body>
+        <nav class="nav-uno">
+            <a href="/"> 
+                <img src="./images/bg3logo.png" alt="bg3 logo" width="100" height="100"> 
+            </a>
+    
+            <ul class="menu">
+                <li class="item-menu">
+                    <a class="item-link" href="./historia.html">Historia</a>
+                </li>
+                <li class="item-menu">
+                    <a class="item-link" href="./personajes.html">Personajes</a>
+                </li>
+            </ul>
+        </nav>
+        <header> <h1 class="titulo-blanco">Personajes</h1> </header>
+
+            <main>
+                <h2>Selecciona un personaje</h2>
+                        <section class="descripciones">
+                            <div id="iconos">
+                                <img onclick="showme('textAstarion');" id="imagen1" src="./images/Astarionicon.jpg" alt="imagen astarion">
+                                <img onclick="showme('textShadow');" id="imagen2" src="./images/shadowhearticon.jpg" alt="imagen shadowheart">
+                                <img onclick="showme('textKarlach');" id="imagen3" src="./images/Karlachicon.jpg" alt="imagen karlach">
+                            </div>
+                        </section>
+                        <section class="textodescripciones">
+                            <div id="textAstarion" style="display:none">
+                                <h1>Astarion</h1>
+                                <p>Astarion has the demeanour of a charming and confidant nobleman with a biting wit. He enjoys making sarcastic remarks and japes at other people's expense, all the while acting smug and haughty. His decades of being a vampire have left him with a lack of moral scruples compared to the more upstanding members of the party, making him come off as ruthless at best or outright sadistic at worst. However, he does have certain lines he'd prefer not to cross, specifically killing innocent people, especially when it's for their blood. He starts the game simply drinking from animals, though he will gladly drink from the player when it is consensual.</p>
+                            </div>
+                            <div id="textShadow" style="display:none">
+                                <h1>Shadowheart</h1>
+                                <p>Shadowheart is guarded and hesitant to reveal information about herself, her motives, or the relic she carries. She displays a particular distrust of Githyanki such as Lae'zel. Often, she seems indifferent to the plight of others; however, she does not explicitly take pleasure in their suffering, and will disapprove of unnecessary cruelty and violence. She will usually approve of finding non-violent solutions to situations, and treating animals and children with compassion. Above all, Shadowheart values pragmatism.</p>
+                            </div>
+                            <div id="textKarlach" style="display:none">
+                                <h1>Karlach</h1>
+                                <p>Karlach is an extremely passionate individual who strives to live life to the fullest. She tends to speak excitedly regarding any of life's simple pleasures, whether that be food, drink, friends, or intimacy. Her demeanor is generally joyous and very forward, having no fear of loudly proclaiming her love of being alive and how much she cares for those close to her. Her positive disposition and infectious energy seem to allow her to make friends easily. Interactions with those who knew her prior to the events of the game's story imply that she has always been this exuberant, even as a poor child growing up in the outskirts of Baldur's Gate.</p>
+                            </div> 
+                        </section>
+                        <!-- <section class="botonvolver">
+                            <button id="buttonvolver" class="botonesVideo">
+                                <img src="./images/svg/restart-svgrepo-com.svg" alt="volver atrás">
+                            </button>
+                        </section> -->
+            </main>
+    
+       <footer class="footer-main">
+            <div class="wrapper-main">
+                <div class="footer-logo">
+                    <img src="./images/bg3logo.png" alt="logo">
+                    <p>Historia <br> de </br> Baldur's Gate</p>
+                </div>
+            </div>
+            <div class="footer-text-presentacion">
+                <p>Presentación Final por Ignacio Gilardoni</p>
+            </div>
+        </footer>
+      
+        <script src="./script.js"></script>
+    
+    </body>
+</html>

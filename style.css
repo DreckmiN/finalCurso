@@ -1,0 +1,280 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+    margin: auto 0px;
+}
+body{
+    background-image: url(./images/bg3background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* NAV */
+
+.nav-uno{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0px 10px;
+
+}
+
+h1{
+    color: #eeeeee;
+    text-shadow: 2px 2px gray, 6px 6px black;
+}
+
+p {
+    color: #eeeeee;
+    font-size: 20px;
+    text-shadow: 1px 1px gray, 3px 3px black;
+}
+
+.historia-parrafos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 70px;
+    gap: 100px;
+    background-color: #00000042;
+}
+
+.nav-dos{
+    position: relative;
+    display: flex;
+    padding: 60px 0px
+}
+
+.contenido{
+    position: relative;
+}
+
+h2{
+    text-shadow: 2px 2px gray, 6px 6px black;
+    font-size: 30px ;
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.menu{
+ display: flex;
+ width: 300px;
+ justify-content: space-around;
+}
+main{
+    padding: 100px 20px;
+}
+.item-menu{
+ list-style-type: none;
+ 
+}
+.item-link, .botonesVideo{
+    box-shadow: 2px 3px #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-image: url(./images/bg3background.jpeg);
+    color: rgba(239, 135, 55, 0.988);
+    font-weight: 300;
+}
+.item-menu:active{
+    transform: translate(3px, 2px);
+}
+.item-menu:active > .item-link{
+    box-shadow:0px 0px ;
+}
+
+.flexItem{
+ display: block;
+}
+
+/* INDEX */
+
+
+header{
+ background: url(./images/peakpx.jpg) fixed;
+ background-size: cover;
+ min-height: 500px;
+ color: #eeeeee;
+ font-size: 32px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 0px 100px;
+
+}
+
+.titulo-blanco{
+ text-align: center;
+}
+
+.index-category{
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.index-category-box {
+    width: 300px;
+    height: 300px;
+    /*background-color: red;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.index-category-box h3{
+    font-size: 32px;
+    line-height: 28px;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000;
+    z-index: 100;
+
+}
+
+.index-category-box:nth-child(1) {
+    background-image: url(./images/historiabg1.png);
+}
+
+.index-category-box:nth-child(2) {
+    background-image: url(./images/cropped-256-256-1325553.jpg);
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    transition: all ease-in-out 200ms;
+}
+
+.index-category-box:hover .dark-overlay {
+    opacity: 0;
+}
+
+/* FOOTER */
+
+.wrapper-main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #181D31;
+    
+}
+
+.footer-logo {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+.footer-logo p {
+    font-size: 20px;
+    text-align: center;
+    color: #678983;
+}
+
+.footer-logo img {
+    height: 135px;
+    align-self: center;
+}
+
+.footer-text-presentacion {
+    text-align: center;
+}
+
+/* VID */
+
+.videocont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.container {
+    padding: 5px;
+    background-color: black;
+    width: 40%;
+}
+
+.barra{
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonera{
+    display: flex;
+    gap: 20px;
+}
+
+/* personajes */
+
+.descripciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#iconos{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 20px;
+}
+
+#imagen1,#imagen2,#imagen3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#imagen1:hover{
+    opacity: 0.7;
+}
+
+#imagen2:hover{
+    opacity: 0.7;
+}
+
+#imagen3:hover{
+    opacity: 0.7;
+}
+
+.textodescripciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px;
+    gap: 50px;
+    
+}
+
+.botonvolver {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px;
+    gap: 50px;
+}
